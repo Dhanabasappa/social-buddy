@@ -1,0 +1,121 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+/* Mobile First Responsive Design */
+
+/* Ultra Small Devices - Extra Small Phones (320px - 374px) */
+@media (max-width: 374px) {
+  body {
+    font-size: 13px;
+  }
+  
+  main {
+    padding: 12px !important;
+  }
+}
+
+/* Small Phones (375px - 480px) */
+@media (max-width: 480px) {
+  main {
+    max-width: 100% !important;
+    padding: 12px !important;
+  }
+  .highlights {
+    gap: 12px !important;
+  }
+  .highlight-item {
+    min-width: 64px !important;
+  }
+  .highlight-circle {
+    width: 56px !important;
+    height: 56px !important;
+    font-size: 24px !important;
+  }
+}
+
+/* Medium Devices - Tablets (481px - 768px) */
+@media (max-width: 768px) {
+  main {
+    max-width: 100% !important;
+    padding: 16px !important;
+  }
+}
+
+/* Large Tablets and Small Laptops (769px - 1024px) */
+@media (max-width: 1024px) {
+  main {
+    max-width: 100% !important;
+    padding: 20px !important;
+  }
+}
+

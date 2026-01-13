@@ -1,0 +1,30 @@
+body {
+  min-height: 100vh;
+  background: url('/public/warm-watercolor-texture.jpg') center/cover no-repeat, #fff6f0;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+body.dark-mode {
+  background: #1a1a1a;
+}
+
+html, body {
+  background-color: inherit;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: inherit;
+  padding: 0;
+}
+
+.main-instagram-width {
+  max-width: 935px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: inherit;
+  padding: 0;
+}
