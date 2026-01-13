@@ -12,7 +12,6 @@ A modern Instagram-like social media application built with React and Vite.This 
 
 ## 🛠 Tech Stack
 - React 
-- Vite
 - JavaScript (ES6+)
 - Context API
 - HTML5 & CSS3
@@ -103,20 +102,20 @@ Social Buddy includes a built-in dark/light theme toggle accessible from the set
 ## 📸 Screenshots
 
 ### Home Page 
-![Home](screenshots/home.png)(screenshots/dark.png)
+![Home] (screenshots/home.png)(screenshots/dark.png)
 
 ### Reels Section
-![Reels](screenshots/reels.png),(screenshots/searched_user.png),(screenshots/searcheduser_chart.png)
+![Reels] (screenshots/reels.png),(screenshots/searched_user.png),(screenshots/searcheduser_chart.png)
 
 ### Profile Page
-![Profile](screenshots/profile.png),(screenshots/user_posts.png),(screenshots/user_reels.png),
+![Profile] (screenshots/profile.png),(screenshots/user_posts.png),(screenshots/user_reels.png),
 (screenshots/user_remix.png)
 
 ### Notifications
-![Notifications](screenshts/notifications.png),(screenshots/usernotifications_chart.png)
+![Notifications] (screenshts/notifications.png),(screenshots/usernotifications_chart.png)
 
 ### Add post
-![AddPost](screenshots/add_post.png)
+![AddPost] (screenshots/add_post.png)
 
 
 
